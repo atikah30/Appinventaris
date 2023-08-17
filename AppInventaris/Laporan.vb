@@ -149,7 +149,7 @@ Public Class Laporan
 
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
         Call Koneksi()
-        Da = New SqlDataAdapter("test", Conn)
+        Da = New SqlDataAdapter("test1", Conn)
         Ds = New DataSet
         Ds.Clear()
         Da.Fill(Ds, "Detail")
